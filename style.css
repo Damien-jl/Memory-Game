@@ -1,7 +1,20 @@
+body {
+  background-color: rgb(125, 194, 219);
+  
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(230, 230, 112)
+}
+
 #game div {
-  border: 1px solid black;
+  border: 2px solid white;
   width: 15%; 
   height: 200px;
   margin: 10px;
   display: inline-block;
+  border-radius: 5%;
+  cursor: pointer;
 }
